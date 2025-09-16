@@ -1,9 +1,14 @@
 import { useEffect, useRef } from 'react';
 
 const glyphs = '01AI<>$#@*[]{}+-=:';
+const colorPool = ['#fcee09', '#ff005c', '#00f6ff', '#ffffff'];
 
 function randomGlyph() {
   return glyphs.charAt(Math.floor(Math.random() * glyphs.length));
+}
+
+function randomColor() {
+  return colorPool[Math.floor(Math.random() * colorPool.length)];
 }
 
 const MatrixBackground = () => {
@@ -34,7 +39,7 @@ const MatrixBackground = () => {
         return;
       }
 
-      context.fillStyle = 'rgba(5, 10, 20, 0.25)';
+      context.fillStyle = 'rgba(2, 3, 10, 0.25)';
       context.fillRect(0, 0, canvas.width, canvas.height);
       context.font = `${fontSize}px "Share Tech Mono", monospace`;
 
@@ -42,9 +47,7 @@ const MatrixBackground = () => {
         const text = randomGlyph();
         const x = i * fontSize;
         const y = drops[i] * fontSize;
-        const hue = 150 + Math.random() * 60;
-        const lightness = 45 + Math.random() * 20;
-        context.fillStyle = `hsl(${hue}, 90%, ${lightness}%)`;
+        context.fillStyle = randomColor();
         context.fillText(text, x, y);
 
         if (y > canvas.height && Math.random() > 0.975) {

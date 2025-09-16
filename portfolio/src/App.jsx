@@ -47,9 +47,11 @@ function App() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
             <div className="hero-copy">
-              <span className="hero-eyebrow">Crafting cognitive systems for human-centered futures</span>
-              <h1>
-                {personalInfo.name}
+              <span className="hero-eyebrow">Neon-coded autonomy for engineered futures</span>
+              <h1 className="hero-title">
+                <span className="hero-name glitch" data-text={personalInfo.name}>
+                  {personalInfo.name}
+                </span>
                 <span className="hero-highlight">{personalInfo.title}</span>
               </h1>
               <p className="hero-summary">{personalInfo.summary}</p>
@@ -96,9 +98,10 @@ function App() {
         </header>
 
         <nav className="pill-nav" aria-label="Primary">
-          {navItems.map((item) => (
+          {navItems.map((item, index) => (
             <a key={item.id} href={`#${item.id}`}>
-              {item.label}
+              <span className="nav-index">{String(index + 1).padStart(2, '0')}</span>
+              <span>{item.label}</span>
             </a>
           ))}
         </nav>
@@ -166,7 +169,6 @@ function App() {
             <div className="project-grid">
               {projects.map((project) => (
                 <article key={project.name} className="project-card">
-                  <div className="project-glow" />
                   <h3>{project.name}</h3>
                   <p>{project.description}</p>
                   <div className="tag-row">
