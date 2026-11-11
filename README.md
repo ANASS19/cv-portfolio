@@ -1,8 +1,14 @@
-# Anass Nassiri
+![Anass Nassiri — AI/ML Engineer and Research Engineer](./assets/ai-engineering-banner.svg)
 
-### AI/ML Engineer · Research Engineer
+<div align="center">
 
-**Building, evaluating and engineering AI systems — from datasets and deep-learning experiments to LLM applications and reliable APIs.**
+### Building AI systems from research to reliable engineering
+
+[**📄 View CV**](./CV.md) &nbsp;·&nbsp; [**💼 LinkedIn**](https://www.linkedin.com/in/anass-nassiri-5487051a3/) &nbsp;·&nbsp; [**🔬 GitHub Projects**](https://github.com/ANASS19?tab=repositories)
+
+</div>
+
+---
 
 📍 Milan, Italy · [LinkedIn](https://www.linkedin.com/in/anass-nassiri-5487051a3/) · [GitHub](https://github.com/ANASS19) · [Website](https://a-nassiri.me) · [Email](mailto:nassirri115@gmail.com)
 
