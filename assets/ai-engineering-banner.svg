@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="title desc">
+<title id="title">Anass Nassiri — AI/ML Engineer and Research Engineer</title><desc id="desc">Dark futuristic banner with a neural network motif and elegant cyan and violet accents</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop offset="0" stop-color="#080f20"/><stop offset=".55" stop-color="#111c38"/><stop offset="1" stop-color="#080e1a"/></linearGradient>
+ <linearGradient id="edge"><stop stop-color="#39d9ef"/><stop offset="1" stop-color="#9b7bff"/></linearGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#5b779d" stroke-opacity=".17" stroke-width=".8"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<rect width="1200" height="300" fill="url(#bg)"/><rect width="1200" height="300" fill="url(#grid)"/>
+<path d="M0 1H1200" stroke="url(#edge)" stroke-width="3"/><path d="M0 298H1200" stroke="url(#edge)" stroke-opacity=".5"/>
+<g transform="translate(790 10)" fill="none" stroke-width="1.5">
+<path d="M35 140L130 78L235 135L340 55 M35 140L130 204L235 135L330 235 M130 78L200 30L340 55 M130 204L232 270L330 235 M235 135L200 30 M235 135L232 270 M130 78L130 204 M340 55L330 235" stroke="#4de3ef" stroke-opacity=".35"/>
+<path d="M35 140L235 135M130 78L330 235M130 204L340 55" stroke="#a593ff" stroke-opacity=".33"/>
+<g fill="#53e2f6" stroke="#b6faff"><circle cx="35" cy="140" r="7"/><circle cx="130" cy="78" r="8"/><circle cx="130" cy="204" r="6"/><circle cx="235" cy="135" r="10"/></g>
+<g fill="#a58bff" stroke="#d0c0ff"><circle cx="200" cy="30" r="6"/><circle cx="340" cy="55" r="9"/><circle cx="330" cy="235" r="7"/><circle cx="232" cy="270" r="5"/></g>
+</g>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="64" y="92" fill="#edf8ff" font-size="43" font-weight="bold" letter-spacing="1">ANASS NASSIRI</text>
+<text x="66" y="134" fill="#63e1f5" font-size="21" font-weight="bold" letter-spacing="2">AI / ML ENGINEER · RESEARCH ENGINEER</text>
+<text x="66" y="184" fill="#bfcde2" font-size="20">Models  ·  Agents  ·  Computer Vision  ·  ML Systems</text>
+<rect x="65" y="217" width="355" height="37" rx="18" fill="#122b3d" stroke="#3986a0"/>
+<text x="87" y="241" fill="#cdf8ff" font-size="15" letter-spacing="1">RESEARCH → ENGINEERING → IMPACT</text>
+</g></svg>
