@@ -90,11 +90,11 @@ A computer-vision project exploring incremental face-recognition workflows for a
 
 **AI & Modeling**
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv&theme=dark" alt="Python, PyTorch, TensorFlow, scikit-learn and OpenCV" />
+<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,opencv&theme=dark" alt="Python, PyTorch, scikit-learn and OpenCV" />
 
 **LLM Systems & Cloud Engineering**
 
-<img src="https://skillicons.dev/icons?i=fastapi,docker,aws,git,github,linux,postgres&theme=dark" alt="FastAPI, Docker, AWS, Git, GitHub, Linux, PostgreSQL" />
+<img src="https://skillicons.dev/icons?i=fastapi,docker,aws,git,github,linux,mysql&theme=dark" alt="FastAPI, Docker, AWS, Git, GitHub, Linux, MySQL" />
 
 </div>
 
